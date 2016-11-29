@@ -1,2 +1,2 @@
-ijfdsl# sdtestpackage
-itesttt.test. test patch. test minor 
+ijfdsl# sdtestpackage itestj
+itesttt.test. test patch. test minor
