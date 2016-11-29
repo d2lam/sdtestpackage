@@ -1,6 +1,6 @@
 {
   "name": "sdtestpackage",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "My package",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/d2lam/sdtestpackage.git"
+  },
+  "release": {
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/src/lib/plugin-noop.js"
+    }
   },
   "devDependencies": {
     "semantic-release": "^6.3.2"
