@@ -1,11 +1,19 @@
 {
   "name": "sdtestpackage",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Test package. Will delete after",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Dao Lam",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d2lam/sdtestpackage.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  }
 }
