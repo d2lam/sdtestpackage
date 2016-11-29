@@ -1,0 +1,6 @@
+shared:
+    image: node:6
+jobs:
+    main:
+        steps:
+            - print: echo the main jobs started!
