@@ -9,7 +9,7 @@ jobs:
     publish:
         steps:
             - install: npm install
-            - publish: npm publish
+            - publish: npm run semantic-release
         secrets:
             - GH_TOKEN
             - NPM_TOKEN
