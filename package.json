@@ -4,7 +4,8 @@
   "description": "My package",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "prepublish": "semantic-release pre",
+    "postpublish": "semantic-release post"
   },
   "author": "Dao Lam",
   "license": "MIT",
