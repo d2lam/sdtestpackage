@@ -9,4 +9,4 @@ jobs:
     publish:
         steps:
             - run: ./stuff.sh
-            - next: echo blah
+            - next: echo blah2
